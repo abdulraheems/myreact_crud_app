@@ -32,7 +32,7 @@ function App() {
 
   return (
     <div className="App container mt-5">
-      <h1 className='mb-3'>Electronic Products List</h1>
+      <h1 className='mb-3'>Innoovatum Electronic Products List</h1>
       <ItemForm addItem={addItem} />
       <ItemList items={items} deleteItem={deleteItem} editItem={editItem} />
     </div>
